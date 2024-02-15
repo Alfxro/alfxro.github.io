@@ -28,7 +28,46 @@
 #products{
     
     background-color: rgb(248, 207, 183);
-    height: 100vh;
+    height: 105vh;
+    overflow: hidden;
+    font-family: 'DM Sans',serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#products h1{
+    font-size: 2.2rem;
+}
+#products p{
+    margin-top: 5px ;
+
+    font-family: 'DM Sans',serif;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(28, 28, 28);
+}
+
+.product{
+    padding: 15%;
+    background-color: rgba(245, 245, 245, 0.408);
+    font-family: 'DM Sans',serif;
+}
+
+.products-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    
+    
 }
 
 #contact{
@@ -47,6 +86,7 @@ header{
     height: 75vh;
     width: 75%;
     position: relative;
+    border-radius: 0 15px 35px 0px;
     
     overflow: hidden;
     transition: all 0.1s;
@@ -56,7 +96,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2rem ;
+    font-size: 2.2rem ;
     gap: 6%;
     
 }
@@ -72,6 +112,18 @@ header{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    
+}
+
+#mobile-nav a::after{
+    content: '';
+    height: 0.05rem;
+
+    width: 100%;
+    background-color: rgb(222, 198, 245);
+
+    display: block;
+    
 }
 
 #mobile-nav-button{
