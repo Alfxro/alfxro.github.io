@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#mobile-hero{
+    background-color: rgb(194, 188, 245);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#products{
+    
+    background-color: rgb(248, 207, 183);
+    height: 100vh;
+}
+
+#contact{
+    background-color: rgb(194, 188, 245);
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+#mobile-nav{
+    background-color: rgba(60, 61, 61, 0.785);
+    height: 75vh;
+    width: 75%;
+    position: relative;
+    
+    overflow: hidden;
+    transition: all 0.1s;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem ;
+    gap: 6%;
+    
+}
+
+.mobile-nav-hidden{
+    width: 0 !important;
+}
+
+#mobile-nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#mobile-nav-button{
+    width: 20%;
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.196);
+    z-index: 1;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 15px;
+    border: none;
+}
