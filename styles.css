@@ -217,7 +217,7 @@ header{
 
 #mobile-nav-button::after{
     content: '\002b';
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #ffffff7b;
     display: block;
     transition:  0.5s;
