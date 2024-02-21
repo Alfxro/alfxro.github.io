@@ -8,6 +8,8 @@ addEventListener('load',()=>{
     mobileNavButton.addEventListener('click', ()=>{
         console.log('hola');
         mobileNav.classList.toggle('mobile-nav-hidden');
+
+        mobileNavButton.classList.toggle('mobile-nav-button-on')
     })
 
 
