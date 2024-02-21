@@ -11,5 +11,13 @@ addEventListener('load',()=>{
     })
 
 
+    var dropdownToggle = document.querySelector('#dropdown-toggle');
+    var dropdownContainer = document.querySelector('.dropdown-container');
+
+    dropdownToggle.addEventListener('click', ()=>{
+        dropdownContainer.classList.toggle('hidden-dropdown')
+        dropdownToggle.classList.toggle('on')
+    })
+
 
 })

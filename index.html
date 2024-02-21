@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Fusion Natural</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/ea2518ff12.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header >
-        
+    <header>
+
         <nav id="mobile-nav" class="mobile-nav-hidden">
             <a href="">Inicio</a>
-            <a href="#products">Productos</a>
+
+            <div>
+                <a id="dropdown-toggle" class="on">Productos</a>
+
+                <div class="dropdown-container hidden-dropdown">
+                    <a href="" class="dropdown-a">Cremas</a>
+                    <a href="" class="dropdown-a">Jabones</a>
+                    <a href="" class="dropdown-a">Aceites</a>
+
+                </div>
+
+            </div>
+
             <a href="">Informacion</a>
             <a href="">Comprar</a>
             <a href="">Redes</a>
@@ -20,14 +35,16 @@
         </nav>
         <button id="mobile-nav-button">=</button>
 
-       
+
     </header>
 
     <section id="mobile-hero">
         <h1>TREND</h1>
         <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iusto saepe veritatis, temporibus labore cum tempora necessitatibus earum ut expedita voluptatem accusantium eligendi eos maiores aspernatur quisquam illo aliquid cumque?</p>
-    </section >
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iusto saepe veritatis, temporibus labore
+            cum tempora necessitatibus earum ut expedita voluptatem accusantium eligendi eos maiores aspernatur quisquam
+            illo aliquid cumque?</p>
+    </section>
 
     <section id='products'>
         <h1>PRODUCTS</h1>
@@ -42,7 +59,7 @@
             <div class="product">3</div>
             <div class="product">4</div>
             <div class="product">5</div>
-            <div class="product">6</div>   
+            <div class="product">6</div>
         </div>
     </section>
 
@@ -50,4 +67,5 @@
 
     </section>
 </body>
+
 </html>
