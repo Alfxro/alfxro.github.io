@@ -4,7 +4,7 @@ addEventListener('load',()=>{
   
     var mobileNav = document.querySelector('#mobile-nav');
     var mobileNavButton = document.querySelector('#mobile-nav-button');
-    
+    var mayron = "mayron";
     mobileNavButton.addEventListener('click', ()=>{
         console.log('hola');
         mobileNav.classList.toggle('mobile-nav-hidden');
